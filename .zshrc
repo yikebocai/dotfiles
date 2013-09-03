@@ -54,13 +54,6 @@ alias egrep='egrep --color'
 
 #ssh server
 alias ssh@server='ssh levy.liul@login1.cm3.taobao.org'
-alias ssh@simbo='ssh simbo@10.19.6.48'
-alias mysql@dev='mysql -urisk -prisk -h10.20.149.13 -P3306 -b risk'
-alias mysql@ut='mysql -utest -p1qaz@2wsx -h10.20.149.16 -P3306 -b ointest_ut'
-alias mysql@test='mysql -utest -p1qaz@2wsx -h10.20.149.14 -b -P3306 ointest'
-alias mysql@auto='mysql -utest -p1qaz@2wsx -h10.20.154.175 -b ointest'
-alias mysql@perf='mysql -uointest_test -pointest_test -h10.20.129.146 -b ointest_test'
-alias mysql@sea='mysql -uroot -p123456 -h10.20.157.171 -b sea_bridge'
 alias ssh@vps='ssh admin@192.154.105.222'
 alias gfw='ssh -CNgf guest@192.154.105.222 -D 127.0.0.1:7070'
 
