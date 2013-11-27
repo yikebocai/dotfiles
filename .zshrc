@@ -114,6 +114,7 @@ alias gitrm="git rm"
 alias gitd="git diff"
 alias gitcl="git clone"
 alias gitl="git log"
+alias gitrv="git remote -v"
 
 #other
 alias tfn='tail -fn 200'
