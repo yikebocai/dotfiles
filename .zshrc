@@ -54,8 +54,12 @@ alias egrep='egrep --color'
 
 #ssh server
 alias ssh@server='ssh levy.liul@login1.cm3.taobao.org'
+alias ssh@server4='ssh levy.liul@login1.cm4.taobao.org'
 alias ssh@vps='ssh admin@192.154.105.222'
+alias ssh@td='ssh root@103.21.140.254'
 alias gfw='ssh -CNgf guest@192.154.105.222 -D 127.0.0.1:7070'
+alias dev@gw='ssh xinbo.zhangxb@10.125.204.231'
+alias mteerule@dev='ssh xinbo.zhangxb@10.125.0.49'
 
 #maven cmd
 alias mvna='mvn archetype:generate'
@@ -99,13 +103,17 @@ alias svrmb='sh ~/shell/svrm_batch'
 alias svab='sh ~/shell/sva_batch'
 
 #git cmd
+alias giti="git init"
 alias gita='git add'
 alias gitc='git commit -m '
 alias gitps='git push origin master'
 alias gitpl='git pull'
+alias gitf='git fetch'
 alias gitst='git status'
 alias gitrm="git rm"
 alias gitd="git diff"
+alias gitcl="git clone"
+alias gitl="git log"
 
 #other
 alias tfn='tail -fn 200'
@@ -124,6 +132,7 @@ alias clojure='java -cp /Users/zxb/app/clojure-1.5.1/clojure-1.5.1.jar clojure.m
 alias bower='/usr/local/share/npm/bin/bower'
 alias lessc='/Users/zxb/work/less.js/bin/lessc'
 alias sips='sips -Z'
+alias sshd='sudo /usr/sbin/sshd'
 
 export PATH=/Users/zxb/work/shell:$PATH
 
@@ -135,3 +144,4 @@ export APACHE_HOME=/usr/alibaba/httpd
 export M2_HOME=/usr/alibaba/maven
 export MAVEN_OPTS="-Xms2024m -Xmx2024m -Dfile.encoding=UTF-8"
 export PATH=$M2_HOME/bin:$ZOOKEEPER_HOME/bin:$PATH
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages
